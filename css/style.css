@@ -1,0 +1,89 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Murecho:100,200,300,regular,500,600,700,800,900&display:swap;");
+@font-face {
+	font-family: "NunitoSans";
+	src: url("../fonts/NunitoSans-Black.woff") format("woff"), url("../fonts/NunitoSans-Black.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NunitoSans";
+	src: url("../fonts/NunitoSans-BlackItalic.woff") format("woff"),
+		url("../fonts/NunitoSans-BlackItalic.woff2") format("woff2");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NunitoSans";
+	src: url("../fonts/NunitoSans-Bold.woff") format("woff"), url("../fonts/NunitoSans-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "NunitoSans";
+	src: url("../fonts/NunitoSans-Regular.woff") format("woff"), url("../fonts/NunitoSans-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.title-head {
+	font-size: 25px;
+	font-family: "Murecho", serif;
+	color: turquoise;
+	font-weight: 700;
+}
+.header {
+	text-align: center;
+}
+.link-go {
+	color: rgb(35, 35, 252);
+	text-shadow: 5px 5px 8px rgb(13, 196, 13);
+}
+.main-title {
+	color: red;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+}
+.bold {
+	font-family: "NunitoSans", sans-serif;
+	font-weight: 700;
+}
+.wordspacing {
+	color: rgb(196, 196, 20);
+	word-spacing: 5px;
+}
+.lineheight {
+	font-size: 20px;
+	color: violet;
+	line-height: 1.3;
+	text-align: justify;
+}
+.shadow {
+	text-shadow: 3px 3px 10px rgb(167, 11, 167);
+	font-family: "NunitoSans", sans-serif;
+	font-style: italic;
+	white-space: nowrap;
+}
+.text-center {
+	text-align: center;
+	text-decoration: underline;
+}
+.second-article {
+}
+.main-title-second-article {
+	font-size: 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: rgb(11, 211, 11);
+}
+.text-right {
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
